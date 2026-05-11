@@ -1,0 +1,26 @@
+# Arquivos compilados
+build/
+*.o
+*.obj
+
+# Executável
+calculadora
+calculadora.exe
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup
+*~
+*.swp
+*.swo
+*.bak
+
+# Arquivos de debug
+*.dSYM/
