@@ -24,3 +24,7 @@ Thumbs.db
 
 # Arquivos de debug
 *.dSYM/
+
+# Outros arquivos
+*.py
+*.pptx
