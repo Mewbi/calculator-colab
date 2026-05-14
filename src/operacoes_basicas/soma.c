@@ -2,10 +2,16 @@
 #include "soma.h"
 
 void soma() {
-    printf("\n");
-    printf("========================================\n");
-    printf("  Essa funcionalidade ainda não está\n");
-    printf("  implementada :(\n");
-    printf("========================================\n");
+  float a, b;
 
+  printf("=== SOMA ===\n");
+  printf("Digite o primeiro número: ");
+  scanf("%f", &a);
+
+  printf("Digite o segundo número: ");
+  scanf("%f", &b);
+
+  printf("\nResultado: %.2f + %.2f = %.2f\n", a, b, a + b);
+
+  return;
 }
