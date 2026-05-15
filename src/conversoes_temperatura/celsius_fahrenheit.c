@@ -2,10 +2,13 @@
 #include "celsius_fahrenheit.h"
 
 void celsius_fahrenheit() {
-    printf("\n");
-    printf("========================================\n");
-    printf("  Essa funcionalidade ainda n√£o est√°\n");
-    printf("  implementada :(\n");
-    printf("========================================\n");
-
+  	float celsius, f;
+  
+printf("-- CONVERS√O DE TEMPERATURA --");
+    printf("Digite a temperatura em Celsius: ");
+    scanf("%f", &celsius);
+    
+    f = (celsius * 9 / 5) + 32;
+    
+    printf("\nA temperatura de %.2f∫C equivale a %.2f∫F.\n", celsius, f);
 }
